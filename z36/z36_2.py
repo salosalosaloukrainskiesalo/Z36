@@ -44,6 +44,8 @@ plt.plot(x2_3, y2_3, 'bo', label='Point 6')
 plt.plot([x1_1, x2_1], [y1_1, y2_1], 'k-')
 plt.plot([x1_2, x2_2], [y1_2, y2_2], 'k-')
 plt.plot([x1_3, x2_3], [y1_3, y2_3], 'k-')
+plt.xlabel('x[m]')
+plt.ylabel('y[m]')
 plt.show()
 
 def linear_coef(x1, y1, x2, y2):
